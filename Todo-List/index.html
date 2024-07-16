@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic To-do List</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+            background-size: cover;
+        }
+        h1{
+            border: 2px solid orange;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            background-color: black;
+            text-align: center;
+            color: red;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-style: dashed;
+            display: flex;
+            justify-content: center;
+        }
+        .done{
+            text-decoration: line-through;
+        }
+        #write{
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>
+            To-DO List
+        </h1>
+        <input type="text" id="write" placeholder="Add a new to-do">
+        <ul id="todo-list" style="list-style: lower-roman;">
+
+
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
